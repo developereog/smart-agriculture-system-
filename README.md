@@ -21,6 +21,7 @@ Ensure you have the following installed:
 1. Clone the repository:
    git clone https://github.com/developereog/smart-agriculture-system.git
    cd smart-agriculture-system
+
 Install dependencies:
 npm install
 

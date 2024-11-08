@@ -27,6 +27,7 @@ npm install
 
 Run the application (if applicable):
 npm start
+
 Run tests to verify functionality:
 npm test
 

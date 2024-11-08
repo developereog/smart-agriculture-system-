@@ -31,7 +31,15 @@ jobs:
       - name: Run tests
         run: npm test
 
-      # Step 5: Optionally, build your project (if applicable)
+      # Step 5: Show directory contents for debugging
+      - name: Show directory contents
+        run: ls -la
+
+      # Step 6: Print Node.js version to verify environment
+      - name: Print Node version
+        run: node -v
+
+      # Step 7: Build the project (if applicable)
       # Uncomment the following lines if you have a build step in your package.json
       # - name: Build project
       #   run: npm run build
